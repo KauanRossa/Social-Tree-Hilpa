@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 :root{
     --text-color: black;
@@ -59,6 +60,12 @@ ul li a{
 ul li a:hover{
     background: rgba(255, 255, 255, 0.02);
     border: 1.5px solid var(--text-color);
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 30px;
 }
 hr{
     margin: 10px 0px;
